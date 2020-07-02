@@ -1,8 +1,8 @@
 #!/usr/bin/make -f
 
 SHELL                   := /usr/bin/env bash
-REPO_NAMESPACE          ?= utensils
-REPO_USERNAME           ?= jamesbrink
+REPO_NAMESPACE          ?= fculpo
+REPO_USERNAME           ?= fculpo
 REPO_API_URL            ?= https://hub.docker.com/v2
 IMAGE_NAME              ?= lobsters
 BASE_IMAGE              ?= ruby:2.3-alpine
